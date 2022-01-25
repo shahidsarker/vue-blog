@@ -7,12 +7,15 @@
 </template>
 
 <script>
+import { onMounted, onUnmounted, onUpdated } from "vue";
 import SinglePost from "./SinglePost.vue";
 export default {
   props: ["posts"],
   components: { SinglePost },
-  setup(props) {
-    console.log(props);
+  setup() {
+    onMounted(() => console.log("mounted"));
+    onUnmounted(() => console.log("unmounted"));
+    onUpdated(() => console.log("updated"));
   },
 };
 </script>
