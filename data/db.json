@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the blog",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam velit voluptatibus sed officiis dolor, harum culpa dolores incidunt autem exercitationem fuga tempore, odit quibusdam amet repellendus cumque? Iusto, maiores cumque.",
+      "tags": ["webdev", "coding", "news"]
+    },
+    {
+      "id": 2,
+      "title": "Top 5 CSS Tips",
+      "body": "Animi delectus ipsa, eius voluptatibus pariatur cupiditate amet soluta maxime doloribus, ab placeat, voluptas esse aut molestias beatae dicta debitis repellat at eligendi nemo velit. Excepturi quo unde veritatis alias!",
+      "tags": ["css", "webdev", "coding"]
+    }
+  ]
+}
